@@ -38,14 +38,15 @@ The bootstrapping technique was initially suggested in this paper [[Gentry, STOC
 ```
 fhe-ckks-lwe-lab-encrypted-ml/
 ├── notebooks/                # Jupyter notebook with end-to-end pipeline, results
-│   └── ckks_lwe_logreg.ipynb
-├── data/                     # Generated datasets
+│   └── ckks_encrypted_logistic_regression.ipynb
+├── datasets/                     # datasets
+│   ├── framingham.csv
 │   ├── LogReg_sample_dataset.csv
 │   ├── HRF_sample_small.csv
 │   └── HRF_samples_big.csv
 └── reports/                  # PDF report & presentation slides
-    ├── LabReport.pdf
-    └── Presentation.pdf
+    ├── Crypto_Lab_Report.pdf
+    └── Crypto_Lab_Presentation.pdf
 
 ```
 
