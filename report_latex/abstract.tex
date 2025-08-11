@@ -1,0 +1,14 @@
+	\begin{abstract}\marginnote{VTN}
+        In homomorphic encryption world, the Cheon-Kim-Kim-Song (CKKS) scheme is current\-ly known as the most efficient homomorphic encryption scheme for approximate arithmetic. It allows approximate addition and multiplication of encrypted real complex numbers \linebreak \cite{cheon2017homomorphic}. The fact that the encryption scheme can achieve practical performance in some applications, we evaluate logistic regression model with the CKKS scheme against encryption performance, training performance, and accuracy of the output model.   
+        
+        Currently, there are two well-known libraries which are built on top of the CKKS scheme: HEAAN (C++), and TenSEAL (Python). We decide to use TenSEAL, because the Python programming language is more accessible than C++ and it is popular in data science world. To begin with, we implement the logistic regression CKKS and run it on four randomly generated datasets: 
+        \begin{itemize}[nosep]
+            \item[-] \texttt{framingham} (40000 9-D points)
+            \item[-] \texttt{LogReg\_sample\_dataset} (1000 2-D points)
+            \item[-] \texttt{HRF\_samples\_small} (1000 5-D datapoints)
+            \item[-] \texttt{HRF\_samples\_big}: (50000 5-D points)
+        \end{itemize}
+        In addition, we run a plain logistic regression on those datasets. Then we compare the plain logistic regression and the CKKS logistic regression in terms of performance, e.g., runtimes and accuracy of the final results. In conclusion, we find that difference between CKKS logistic regression's accuracy and the plain logistic regression's one is insignificant. However, the vector-by-vector training on CKKS encrypted dataset does take much more time, because the TenSEAL library does not support encrypted matrix addition and matrix multiplication at the time of the evaluation. 
+        
+        Besides the performance evaluation, we propose a solution to reduce the runtime and the amount of allocated memory drastically when encrypting the datasets with the CKKS scheme by packing multiple datapoints into a single datapoint. Finally, we also suggest a method to enable the CKKS logistic regression to deal with the packed datapoints.
+    \end{abstract}

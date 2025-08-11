@@ -1,0 +1,58 @@
+% !TeX program = lualatex 
+\documentclass{mlai-report}
+
+\input{preamble} 
+% Please change this according to your situation
+\title{Lab - Machine learning on encrypted data:\\ Logistic Regression implementation with CKKS} 
+\author{Van Thong Nguyen (VTN) \and Gerd Mund (GM) \and Yat Wai Wong (YWW)}
+\date{\today} 
+
+
+\addbibresource{references.bib} 
+\usepackage{blindtext} 
+\usepackage{chngcntr}
+\usepackage{placeins}
+\counterwithout{table}{section}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{array}
+\usepackage{graphicx,wrapfig,lipsum}
+\usepackage{amsthm}
+\usepackage{graphics}
+\usepackage{algorithm} 
+\usepackage{algpseudocode} 
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage[figure]{hypcap}
+\usepackage[toc,page]{appendix}
+\usepackage{biblatex}
+\usepackage{algpseudocode}
+\usepackage{algorithm}
+\usepackage{amsfonts}
+\usepackage{multirow}
+\usepackage[section]{placeins}
+
+\algnewcommand\algorithmicforeach{\textbf{for each}}
+\algdef{S}[FOR]{ForEach}[1]{\algorithmicforeach\ #1\ \algorithmicdo}
+
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+
+\begin{document}
+	\maketitle
+    \pagenumbering{roman}
+    \input{abstract}
+    \newpage
+	\tableofcontents
+	\newpage
+	\pagenumbering{arabic}
+	\input{introduction}
+    \input{preliminaries}
+    \input{relatedwork}
+    \input{evaluation}
+    \input{parallel}
+    \input{vectorization}
+    \input{outlook}
+    \newpage
+    \printbibliography[heading={bibintoc}, title={\hspace*{6mm}References}]
+\end{document}

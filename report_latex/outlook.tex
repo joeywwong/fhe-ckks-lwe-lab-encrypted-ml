@@ -1,0 +1,9 @@
+\section{Summary and outlook}\marginnote{GM}
+\begin{text}
+We could show that logistic regression and learning on CKKS encrypted data is possible. We found some drawbacks with space requirements and learning speed. And without bootstrapping for encrypted data we need to send data back to do bootstrapping on user side. \newline
+We found a way for parallelization but in future work we need to rebuild the algorithm to fit with python. We can't use multi-threading but we need to use multi-processing. \newline
+With the vectorization we have an idea to handle the drawback of space requirements and also the speed up of learning. Unfortunately the CKKS scheme has no matrix operations implemented yet, so we need to build our own library in future work to prove our ideas of vectorization with respect to space requirements and speed up. \newline
+As another programming task for the future we need bootstrapping on encrypted data to get security. Here we need to wait that bootstrapping is given to the software we used or we need to implement one.\newline
+After the programming tasks are done we need to think about the security of our algorithm and how secure we are and maybe how we can increase the security level if necessary.
+Finally, we need to think about how data points from various sources can come together to generate a training data pool. Here we can use our idea of parallelization but to run this efficient we need to change from python to C++ as our programming language.
+\end{text}

@@ -1,0 +1,93 @@
+\section{Parallelization of learning}\label{parallel}\marginnote{GM}
+\begin{text}
+    \indent We've shown that learning on encrypted data which are encrypted with the CKKS scheme is possible. But it takes a long time to train the logistic regression. \newline
+    \noindent The first attempt to speed up the learning process was to find a way to parallelize the calculation.
+
+    $$\Delta w = \sum_{i<N} input_i \cdot (output_i-expected_i)$$
+
+    \noindent With a look at the equation to calculate the weight changes during the learning process it is obvious where the approach is to split the equation for the threads. 
+        
+    $$\Delta w = \sum_{i=0}^{\frac{1}{T}N} input_i \cdot (output_i-expected_i) +...+\sum_{i=\frac{T-1}{T}N}^{N} input_i \cdot (output_i-expected_i)$$ 
+    
+    \noindent After splitting the sum into thread many sums we can calculate the partial sums in parallel and after this we need to sum up the pieces to get the whole sum. This should lead us to a speed up of learning. But we need to take care about some points if we work with threads.\newline
+    \indent First of all we have only additions and multiplications, which are really fast calculations, in the threads. So we need to think about the overhead of threads. To create a thread some amount of time is needed. If the creation needs more time than the calculation then threading is not useful. But we can take care of the overhead if we use the busy waiting method where we start all needed threads at the beginning of our algorithm and the threads will never closed but they wait for information that they can work on. Here we need to know that all operating systems have an internal key how often a thread can be called in one second. If we create threads above our system kernels, then the operating system needs to set some threads to sleep. But if the down time of these threads is greater than the calculation time then too many threads will not help in a speed up. We should only use a number of threads equal to the number of kernels minus one for the calculation because the main process needs one thread too. Because the threads always run we need a global variable where we can tell the threads that new data are available and another global variable where the threads can tell that they are finished. So our main thread can tell the worker threads when they should work and our main thread knows when he can go on with his calculation. With these ideas we can create a workflow for the learning algorithm. The pseudo code in Algorithm \ref{workflow} shows this workflow. \newline
+    
+    \begin{algorithm} \caption{Workflow of learning}
+        \label{workflow}
+    	\begin{algorithmic}[1]
+    	    \State{DECLARE GLOBAL $float$ weight $\gets 1.0$}
+    	    \State{DECLARE GLOBAL $bool[]$ startFlag[threads] $\gets FALSE$}
+    	    \State{DECLARE GLOBAL $float[]$ resultArray[threads]$\gets 0.0$}
+    	    \State{DECLARE GLOBAL $bool[]$ doneArray[threads] $\gets FALSE$}
+    	    \State
+    	    \For{$i= 0$ to $(\#$threads$-1)$}
+    	        \State{START thread $\gets$ \{i, ThreadFunction\}}
+    	    \EndFor
+    	    \State
+    	    \While{$N \leq EPOCH\_count$}
+                \State{doneArray $\gets FALSE$}
+                \State{startFlag $\gets TRUE$} \Comment{Threads start calculation}
+            	\State
+        	    \While{True}
+        	        \If{doneArray.ALL(TRUE)}
+        	        \State{break} \Comment{Waiting for all threads are done}
+        	        \EndIf
+        	    \EndWhile
+        	    \State
+        	    \State $\Delta$ w = resultArray.SUM
+        	    \State
+        	    \State{weight $\gets$ weight + $\Delta$ w}
+        	    \State
+        	    \State $N \gets N + 1$
+        	\EndWhile
+    	\end{algorithmic}
+    \end{algorithm}
+    
+    \indent Next we need to think about the single threads and how they should work and the calculation they should do. Because we will work with threads we need to think about race conditions and deadlocks of the threads. We have only one data set for all threads but the threads only need to read on this data set. So there is no problem. To avoid the race condition for the result we can use semaphores but then we maybe slow down the whole calculation because the threads need to wait. Better each thread has his own result and the main process sum up each single thread result after all threads are done with their calculation. For this we set up a global variable for the results. So we don't need semaphores and over all we have no race conditions and no deadlocks. We start each thread with a unique ID. This ID is the thread number, which starts with zero. With this ID we can specify on which data segment the thread should work.
+    
+    $$\text{starting point} = \frac{\text{ID}}{\text{number of threads}} \cdot \text{number of data points,}$$
+    \newline
+    $$\text{ending point} = \frac{\text{ID}+1}{\text{number of threads}} \cdot \text{number of data points.}$$
+    \newline 
+    \noindent We also use the ID to tell the thread the place where it can write his result and as an identification of the thread so the main thread knows which thread has finished. \newline
+    \noindent Now, each thread needs to calculate his $\Delta$w on his data segment and need to wait until all other threads are done with their calculations and the main thread gives feedback to calculate another $\Delta$w for the next learning step. The pseudo code in Algorithm \ref{threadfunction} shows this thread function. \newline
+    
+    \begin{algorithm}
+        \caption{ThreadFunction}
+        \label{threadfunction}
+    	\begin{algorithmic}[1]
+    	    \State{$integer \text{\space threadID} \gets \text{i}$} \Comment{Given from main threat}
+    	    \State{$integer \text{\space startPoint} =\left[\frac{\text{threadID}}{\#\text{threads}} \right]\cdot\#\text{dataPoints}$}
+    	    \State{$integer \text{\space endPoint} = \left[\frac{\text{threadID}+1}{\#\text{threads}} \right]\cdot\#\text{dataPoints}$}
+    	    \State{$float \text{\space result} \gets 0.0$}
+    	    \State
+    	    \While{$TRUE$}
+                \State{startFlag[threadID] $\gets FALSE$ } \Comment{Global variable}
+                \State
+                \For{$i =$ startPoint \textbf{to} endPoint}
+                    \State{result $+=$ input$_i * ($output$_i -$ expected$_i)$} \Comment{Calculating $\Delta$w from data segment}
+                \EndFor
+                \State
+                \State{resultArray[threadID]$\gets$ result} \Comment{Global variable. Give result to main thread}
+                \State{result$\gets 0.0$}
+                \State{doneArray $\gets TRUE$} \Comment{Global variable. Tell main thread done}
+                \State
+                \While{$TRUE$}
+                    \If{startFlag[threadID] $= TRUE$} \Comment{Global variable}
+                        \State{break} \Comment{Waiting for start command}
+                    \EndIf
+                    \State{Do nothing}
+                \EndWhile
+        	\EndWhile
+    	\end{algorithmic}
+    \end{algorithm}
+    
+    \indent With this modifications we can do the training like in Algorithm \ref{code:pseudocode} but in parallel.  
+    
+    \subsection{Results and conclusions} \marginnote{GM}
+    After several runs with different hardware set ups, we can't find a speed up for the calculations. By searching the web we found out that python has a global interpreter lock. This lock prevents multiple threads from executing codes at the same time. So the threads don’t run in parallel but linear. The multi threading lib still exist because with the lib the threads are executed more efficiently but not in parallel. \newline
+    Instead of using multi threading we can use multi processing which python supports. But for this we need to think about the structure of our code because working with global variables isn't that easy like for multi threading. \newline
+    Also we have a problem with the space requirements of the algorithm because we encrypt each data point individually. So we can maybe get a speed up by stacking data points before encryption and working with vector arithmetic. \newline
+    So the parallelization is still an idea for big data sizes but not for smaller ones. 
+
+\end{text}

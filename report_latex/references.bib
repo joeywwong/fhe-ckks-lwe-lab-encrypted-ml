@@ -1,0 +1,329 @@
+@inproceedings{cheon2017homomorphic,
+  title={Homomorphic encryption for arithmetic of approximate numbers},
+  author={Cheon, Jung Hee and Kim, Andrey and Kim, Miran and Song, Yongsoo},
+  booktitle={International Conference on the Theory and Application of Cryptology and Information Security},
+  pages={409--437},
+  year={2017},
+  organization={Springer}
+}
+@article{fan2012somewhat,
+  title={Somewhat practical fully homomorphic encryption.},
+  author={Fan, Junfeng and Vercauteren, Frederik},
+  journal={IACR Cryptol. ePrint Arch.},
+  volume={2012},
+  pages={144},
+  year={2012},
+  publisher={Citeseer}
+}
+@article{Kim2018,
+  author={Kim, Andrey
+  and Song, Yongsoo
+  and Kim, Miran
+  and Lee, Keewoo
+  and Cheon, Jung Hee},
+  title={Logistic regression model training based on the approximate homomorphic encryption},
+  journal={BMC Medical Genomics},
+  year={2018},
+  month={10},
+  day={11},
+  volume={11},
+  number={4},
+  pages={83},
+  issn={1755-8794},
+  doi={10.1186/s12920-018-0401-7},
+  url={https://doi.org/10.1186/s12920-018-0401-7}
+}
+@Article{MiranKim2018,
+author="Kim, Miran
+and Song, Yongsoo
+and Wang, Shuang
+and Xia, Yuhou
+and Jiang, Xiaoqian",
+title="Secure Logistic Regression Based on Homomorphic Encryption: Design and Evaluation",
+journal="JMIR Med Inform",
+year="2018",
+month="4",
+day="17",
+volume="6",
+number="2",
+pages="e19",
+issn="2291-9694",
+doi="10.2196/medinform.8805",
+url="http://medinform.jmir.org/2018/2/e19/",
+url="https://doi.org/10.2196/medinform.8805",
+url="http://www.ncbi.nlm.nih.gov/pubmed/29666041"
+}
+@article{Nesterov,
+author="Nesterov, Y.",
+title="A method for unconstrained convex minimization problem with the rate of convergence o(1/k^2)",
+journal="Soviet Mathematics Doklady",
+ISSN="",
+publisher="",
+year="1983",
+month="",
+volume="27",
+number="",
+pages="372-6",
+}
+@misc{ enwiki:1042160240,
+    author = "{Wikipedia contributors}",
+    title = "Linear separability --- {Wikipedia}{,} The Free Encyclopedia",
+    year = "2021",
+    url = "https://en.wikipedia.org/w/index.php?title=Linear_separability&oldid=1042160240",
+    note = "[Online; accessed 10-October-2021]"
+  }
+  
+@inproceedings{bootstrapping,
+author = {Gentry, Craig},
+title = {Fully Homomorphic Encryption Using Ideal Lattices},
+year = {2009},
+isbn = {9781605585062},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/1536414.1536440},
+doi = {10.1145/1536414.1536440},
+abstract = {We propose a fully homomorphic encryption scheme -- i.e., a scheme that allows one to evaluate circuits over encrypted data without being able to decrypt. Our solution comes in three steps. First, we provide a general result -- that, to construct an encryption scheme that permits evaluation of arbitrary circuits, it suffices to construct an encryption scheme that can evaluate (slightly augmented versions of) its own decryption circuit; we call a scheme that can evaluate its (augmented) decryption circuit bootstrappable.Next, we describe a public key encryption scheme using ideal lattices that is almost bootstrappable.Lattice-based cryptosystems typically have decryption algorithms with low circuit complexity, often dominated by an inner product computation that is in NC1. Also, ideal lattices provide both additive and multiplicative homomorphisms (modulo a public-key ideal in a polynomial ring that is represented as a lattice), as needed to evaluate general circuits.Unfortunately, our initial scheme is not quite bootstrappable -- i.e., the depth that the scheme can correctly evaluate can be logarithmic in the lattice dimension, just like the depth of the decryption circuit, but the latter is greater than the former. In the final step, we show how to modify the scheme to reduce the depth of the decryption circuit, and thereby obtain a bootstrappable encryption scheme, without reducing the depth that the scheme can evaluate. Abstractly, we accomplish this by enabling the encrypter to start the decryption process, leaving less work for the decrypter, much like the server leaves less work for the decrypter in a server-aided cryptosystem.},
+booktitle = {Proceedings of the Forty-First Annual ACM Symposium on Theory of Computing},
+pages = {169–178},
+numpages = {10},
+keywords = {fully homomorphic encryption},
+location = {Bethesda, MD, USA},
+series = {STOC '09'}
+}
+
+@InProceedings{toolkitRLWE,
+author="Lyubashevsky, Vadim
+and Peikert, Chris
+and Regev, Oded",
+editor="Johansson, Thomas
+and Nguyen, Phong Q.",
+title="A Toolkit for Ring-LWE Cryptography",
+booktitle="Advances in Cryptology -- EUROCRYPT 2013",
+year="2013",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="35--54",
+abstract="Recent advances in lattice cryptography, mainly stemming from the development of ring-based primitives such as ring-LWE, have made it possible to design cryptographic schemes whose efficiency is competitive with that of more traditional number-theoretic ones, along with entirely new applications like fully homomorphic encryption. Unfortunately, realizing the full potential of ring-based cryptography has so far been hindered by a lack of practical algorithms and analytical tools for working in this context. As a result, most previous works have focused on very special classes of rings such as power-of-two cyclotomics, which significantly restricts the possible applications.",
+isbn="978-3-642-38348-9"
+}
+
+@InProceedings{idealLatticeRLWE,
+author="Lyubashevsky, Vadim
+and Peikert, Chris
+and Regev, Oded",
+editor="Gilbert, Henri",
+title="On Ideal Lattices and Learning with Errors over Rings",
+booktitle="Advances in Cryptology -- EUROCRYPT 2010",
+year="2010",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="1--23",
+abstract="The ``learning with errors'' (LWE) problem is to distinguish random linear equations, which have been perturbed by a small amount of noise, from truly uniform ones. The problem has been shown to be as hard as worst-case lattice problems, and in recent years it has served as the foundation for a plethora of cryptographic applications. Unfortunately, these applications are rather inefficient due to an inherent quadratic overhead in the use of LWE. A main open question was whether LWE and its applications could be made truly efficient by exploiting extra algebraic structure, as was done for lattice-based hash functions (and related primitives).",
+isbn="978-3-642-13190-5"
+}
+
+@InProceedings{10.1007/978-3-319-78381-9_14,
+author="Cheon, Jung Hee
+and Han, Kyoohyung
+and Kim, Andrey
+and Kim, Miran
+and Song, Yongsoo",
+editor="Nielsen, Jesper Buus
+and Rijmen, Vincent",
+title="Bootstrapping for Approximate Homomorphic Encryption",
+booktitle="Advances in Cryptology -- EUROCRYPT 2018",
+year="2018",
+publisher="Springer International Publishing",
+address="Cham",
+pages="360--384",
+abstract="This paper extends the leveled homomorphic encryption scheme for an approximate arithmetic of Cheon et al. (ASIACRYPT 2017) to a fully homomorphic encryption, i.e., we propose a new technique to refresh low-level ciphertexts based on Gentry's bootstrapping procedure. The modular reduction operation is the main bottleneck in the homomorphic evaluation of the decryption circuit. We exploit a scaled sine function as an approximation of the modular reduction operation and present an efficient evaluation strategy. Our method requires only one homomorphic multiplication for each of iterations and so the total computation cost grows linearly with the depth of the decryption circuit. We also show how to recrypt packed ciphertexts on the RLWE construction with an open-source implementation. For example, it takes 139.8 s to refresh a ciphertext that encrypts 128 numbers with 12 bits of precision, yielding an amortized rate of 1.1 seconds per slot.",
+isbn="978-3-319-78381-9"
+}
+
+@misc{nist_pqc,
+  author = {{National Institute of Standards and Technology}},
+  title = {Post-Quantum Cryptography},
+  year = {2025},
+  month = {July},
+  day = {28},
+  howpublished = {\url{https://csrc.nist.gov/projects/post-quantum-cryptography}}
+}
+
+@inproceedings{BGV,
+author = {Brakerski, Zvika and Gentry, Craig and Vaikuntanathan, Vinod},
+title = {(Leveled) fully homomorphic encryption without bootstrapping},
+year = {2012},
+isbn = {9781450311151},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2090236.2090262},
+doi = {10.1145/2090236.2090262},
+abstract = {We present a novel approach to fully homomorphic encryption (FHE) that dramatically improves performance and bases security on weaker assumptions. A central conceptual contribution in our work is a new way of constructing leveled fully homomorphic encryption schemes (capable of evaluating arbitrary polynomial-size circuits), without Gentry's bootstrapping procedure.Specifically, we offer a choice of FHE schemes based on the learning with error (LWE) or ring-LWE (RLWE) problems that have 2λ security against known attacks. For RLWE, we have:• A leveled FHE scheme that can evaluate L-level arithmetic circuits with \~{O}(λ · L3) per-gate computation -- i.e., computation quasi-linear in the security parameter. Security is based on RLWE for an approximation factor exponential in L. This construction does not use the bootstrapping procedure.• A leveled FHE scheme that uses bootstrapping as an optimization, where the per-gate computation (which includes the bootstrapping procedure) is \~{O}(λ2), independent of L. Security is based on the hardness of RLWE for quasi-polynomial factors (as opposed to the sub-exponential factors needed in previous schemes).We obtain similar results to the above for LWE, but with worse performance.Based on the Ring LWE assumption, we introduce a number of further optimizations to our schemes. As an example, for circuits of large width -- e.g., where a constant fraction of levels have width at least λ -- we can reduce the per-gate computation of the bootstrapped version to \~{O}(λ), independent of L, by batching the bootstrapping operation. Previous FHE schemes all required Ω(λ3.5) computation per gate.At the core of our construction is a much more effective approach for managing the noise level of lattice-based ciphertexts as homomorphic operations are performed, using some new techniques recently introduced by Brakerski and Vaikuntanathan (FOCS 2011).},
+booktitle = {Proceedings of the 3rd Innovations in Theoretical Computer Science Conference},
+pages = {309–325},
+numpages = {17},
+keywords = {modulus reduction, learning with errors, fully homomorphic encryption, bootstrapping},
+location = {Cambridge, Massachusetts},
+series = {ITCS '12}
+}
+
+@InProceedings{bfv1,
+author="Brakerski, Zvika",
+editor="Safavi-Naini, Reihaneh
+and Canetti, Ran",
+title="Fully Homomorphic Encryption without Modulus Switching from Classical GapSVP",
+booktitle="Advances in Cryptology -- CRYPTO 2012",
+year="2012",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="868--886",
+abstract="We present a new tensoring technique for LWE-based fully homomorphic encryption. While in all previous works, the ciphertext noise grows quadratically ({\$}{\$}B {\backslash}rightarrow B^2{\backslash}cdot {\backslash}text {\{}poly{\}}(n){\$}{\$}) with every multiplication (before ``refreshing''), our noise only grows linearly ({\$}{\$}B {\backslash}rightarrow B{\backslash}cdot {\backslash}text {\{}poly{\}}(n){\$}{\$}).",
+isbn="978-3-642-32009-5"
+}
+
+@misc{bfv2,
+      author = {Junfeng Fan and Frederik Vercauteren},
+      title = {Somewhat Practical Fully Homomorphic Encryption},
+      howpublished = {Cryptology {ePrint} Archive, Paper 2012/144},
+      year = {2012},
+      url = {https://eprint.iacr.org/2012/144}
+}
+
+@inproceedings{hsig,
+author = {Gorbunov, Sergey and Vaikuntanathan, Vinod and Wichs, Daniel},
+title = {Leveled Fully Homomorphic Signatures from Standard Lattices},
+year = {2015},
+isbn = {9781450335362},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2746539.2746576},
+doi = {10.1145/2746539.2746576},
+booktitle = {Proceedings of the Forty-Seventh Annual ACM Symposium on Theory of Computing},
+pages = {469–477},
+numpages = {9},
+keywords = {homomorphic signatures, lattices, sis},
+location = {Portland, Oregon, USA},
+series = {STOC '15}
+}
+
+@InProceedings{FE,
+author="Boyen, Xavier",
+editor="Sahai, Amit",
+title="Attribute-Based Functional Encryption on Lattices",
+booktitle="Theory of Cryptography",
+year="2013",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="122--142",
+abstract="We introduce a broad lattice manipulation technique for expressive cryptography, and use it to realize functional encryption for access structures from post-quantum hardness assumptions.",
+isbn="978-3-642-36594-2"
+}
+
+@article{av1,
+author = {Regev, Oded},
+title = {On lattices, learning with errors, random linear codes, and cryptography},
+year = {2009},
+issue_date = {September 2009},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {56},
+number = {6},
+issn = {0004-5411},
+url = {https://doi.org/10.1145/1568318.1568324},
+doi = {10.1145/1568318.1568324},
+abstract = {Our main result is a reduction from worst-case lattice problems such as GapSVP and SIVP to a certain learning problem. This learning problem is a natural extension of the “learning from parity with error” problem to higher moduli. It can also be viewed as the problem of decoding from a random linear code. This, we believe, gives a strong indication that these problems are hard. Our reduction, however, is quantum. Hence, an efficient solution to the learning problem implies a quantum algorithm for GapSVP and SIVP. A main open question is whether this reduction can be made classical (i.e., nonquantum).We also present a (classical) public-key cryptosystem whose security is based on the hardness of the learning problem. By the main result, its security is also based on the worst-case quantum hardness of GapSVP and SIVP. The new cryptosystem is much more efficient than previous lattice-based cryptosystems: the public key is of size \~{O}(n2) and encrypting a message increases its size by a factor of \~{O}(n) (in previous cryptosystems these values are \~{O}(n4) and \~{O}(n2), respectively). In fact, under the assumption that all parties share a random bit string of length \~{O}(n2), the size of the public key can be reduced to \~{O}(n).},
+journal = {J. ACM},
+month = sep,
+articleno = {34},
+numpages = {40},
+keywords = {Lattice, average-case hardness, cryptography, public key encryption, quantum computation}
+}
+
+@inproceedings{av2,
+author = {Brakerski, Zvika and Langlois, Adeline and Peikert, Chris and Regev, Oded and Stehl\'{e}, Damien},
+title = {Classical hardness of learning with errors},
+year = {2013},
+isbn = {9781450320290},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2488608.2488680},
+doi = {10.1145/2488608.2488680},
+abstract = {We show that the Learning with Errors (LWE) problem is classically at least as hard as standard worst-case lattice problems. Previously this was only known under quantum reductions.Our techniques capture the tradeoff between the dimension and the modulus of LWE instances, leading to a much better understanding of the landscape of the problem. The proof is inspired by techniques from several recent cryptographic constructions, most notably fully homomorphic encryption schemes.},
+booktitle = {Proceedings of the Forty-Fifth Annual ACM Symposium on Theory of Computing},
+pages = {575–584},
+numpages = {10},
+keywords = {lattices, learning with errors},
+location = {Palo Alto, California, USA},
+series = {STOC '13'}
+}
+
+@article{av3,
+author = { Micciancio, Daniele and  Regev, Oded},
+title = {Worst‐Case to Average‐Case Reductions Based on Gaussian Measures},
+journal = {SIAM Journal on Computing},
+volume = {37},
+number = {1},
+pages = {267-302},
+year = {2007},
+doi = {10.1137/S0097539705447360},
+URL = {https://doi.org/10.1137/S0097539705447360},
+eprint = {https://doi.org/10.1137/S0097539705447360}
+}
+
+@article{av4,
+author = {Lyubashevsky, Vadim and Peikert, Chris and Regev, Oded},
+title = {On Ideal Lattices and Learning with Errors over Rings},
+year = {2013},
+issue_date = {November 2013},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {60},
+number = {6},
+issn = {0004-5411},
+url = {https://doi.org/10.1145/2535925},
+doi = {10.1145/2535925},
+abstract = {The “learning with errors” (LWE) problem is to distinguish random linear equations, which have been perturbed by a small amount of noise, from truly uniform ones. The problem has been shown to be as hard as worst-case lattice problems, and in recent years it has served as the foundation for a plethora of cryptographic applications. Unfortunately, these applications are rather inefficient due to an inherent quadratic overhead in the use of LWE. A main open question was whether LWE and its applications could be made truly efficient by exploiting extra algebraic structure, as was done for lattice-based hash functions (and related primitives).We resolve this question in the affirmative by introducing an algebraic variant of LWE called ring-LWE, and proving that it too enjoys very strong hardness guarantees. Specifically, we show that the ring-LWE distribution is pseudorandom, assuming that worst-case problems on ideal lattices are hard for polynomial-time quantum algorithms. Applications include the first truly practical lattice-based public-key cryptosystem with an efficient security reduction; moreover, many of the other applications of LWE can be made much more efficient through the use of ring-LWE.},
+journal = {J. ACM},
+month = nov,
+articleno = {43},
+numpages = {35},
+keywords = {Lattice, average-case hardness, cryptography, public key encryption, quantum computation}
+}
+
+@misc{av5,
+      author = {Adeline Langlois and Damien Stehle},
+      title = {Worst-Case to Average-Case Reductions for Module Lattices},
+      howpublished = {Cryptology {ePrint} Archive, Paper 2012/090},
+      year = {2012},
+      url = {https://eprint.iacr.org/2012/090}
+}
+
+@inproceedings{Reg05,
+  author    = {Oded Regev},
+  title     = {On Lattices, Learning with Errors, Random Linear Codes, and Cryptography},
+  booktitle = {Proceedings of the Thirty-Seventh Annual ACM Symposium on Theory of Computing},
+  series    = {STOC '05'},
+  year      = {2005},
+  pages     = {84--93},
+  publisher = {ACM},
+  address   = {New York, NY, USA},
+}
+
+@inproceedings{Pei09a,
+  author    = {Chris Peikert},
+  title     = {Public-Key Cryptosystems from the Worst-Case Shortest Vector Problem},
+  booktitle = {Proceedings of the Forty-First Annual ACM Symposium on Theory of Computing},
+  series    = {STOC '09'},
+  year      = {2009},
+  pages     = {333--342},
+  publisher = {ACM},
+  address   = {New York, NY, USA},
+}
+
+@misc{cryptoeprint:2015:939,
+    author = {Zvika Brakerski and Craig Gentry and Shai Halevi and Chris Peikert and Vinod Vaikuntanathan},
+    title = {Lattice-Based Signatures, Revisited},
+    howpublished = {Cryptology ePrint Archive, Report 2015/939},
+    year = {2015},
+    note = {\url{https://eprint.iacr.org/2015/939}},
+}

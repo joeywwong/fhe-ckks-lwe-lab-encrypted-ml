@@ -1,0 +1,17 @@
+\section{Introduction}\marginnote{VTN}
+    \begin{text}
+    Nowadays, data encryption helps us with protecting our data from being leaked or stolen. However, at the very beginning of data encryption, it was impossible to compute with encrypted data. It raises a problem for companies and organizations which want to gain useful information from their customers' data and have to ensure the privacy regulations at the same time. This is where fully homomorphic encryption plays its part to enable, for example, arithmetic operations over the encrypted data. Therefore, the fully homomorphic encryption allow us to apply some machine learning algorithms to homomorphic encrypted data. 
+    
+    In this report, we would like to use the Cheon-Kim-Kim-Song fully homomorphic encryption scheme (CKKS) along with logistic regression to evaluate performance of training process and accuracy of generated models. Alternatively, the Brakerski/Fan-Vercauteren fully homomorphic encryption scheme (BFV) \cite{fan2012somewhat} could be an option. Nevertheless, it can only do arithmetic calculations over integers, which means we need to transform the data before processing. In contrast to BFV, CKKS is designed to deal with real numbers. As a result, we choose CKKS over BFV. The theory behind CKKS is explained in detail in the paper \textit{"Homomorphic Encryption for Arithmetic of Approximate Numbers"} \cite{cheon2017homomorphic}. This report will answer following questions: \textit{how is the performance of logistic regression over CKKS encrypted datasets, i.e. How fast is it to train the CKKS encrypted data compared with training plaintext data? Does logistic regression over CKKS encrypted datasets consume more memory than plain logistic regression does? How accurate is the final model of logistic regression over CKKS encrypted dataset?}
+
+    In order to finalize the evaluation, four 2-class datasets are used for evaluating:
+    \begin{itemize}[nosep]
+        \item[-] \texttt{framingham} (40000 9-D points),
+        \item[-] \texttt{LogReg\_sample\_dataset} (1000 2-D points),
+        \item[-] \texttt{HRF\_samples\_small} (1000 5-D datapoints),
+        \item[-] \texttt{HRF\_samples\_big}: (50000 5-D points).
+    \end{itemize}
+    Then the encrypted datasets are trained by using gradient-descent logistic regression. Measurements are taken on a single machine to prevent bias and any inconsistencies. 
+    
+    In addition, we would like to propose a method to reduce amount of memory needed to encrypt the data by CKKS scheme. The method also saves network bandwidth, if the encrypted data needs to be transferred over the network, i.e., the internet.
+    \end{text}

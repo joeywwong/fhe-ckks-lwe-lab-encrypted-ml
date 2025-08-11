@@ -1,0 +1,1091 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ynt/global//global/global/global}
+    \entry{Nesterov}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=356768cad101cb2a02dc305489ee47ec}{%
+           family={Nesterov},
+           familyi={N\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{356768cad101cb2a02dc305489ee47ec}
+      \strng{fullhash}{356768cad101cb2a02dc305489ee47ec}
+      \strng{fullhashraw}{356768cad101cb2a02dc305489ee47ec}
+      \strng{bibnamehash}{356768cad101cb2a02dc305489ee47ec}
+      \strng{authorbibnamehash}{356768cad101cb2a02dc305489ee47ec}
+      \strng{authornamehash}{356768cad101cb2a02dc305489ee47ec}
+      \strng{authorfullhash}{356768cad101cb2a02dc305489ee47ec}
+      \strng{authorfullhashraw}{356768cad101cb2a02dc305489ee47ec}
+      \field{labelalpha}{Nes83}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Soviet Mathematics Doklady}
+      \field{title}{A method for unconstrained convex minimization problem with the rate of convergence o(1/k^2)}
+      \field{volume}{27}
+      \field{year}{1983}
+      \field{pages}{372\bibrangedash 6}
+      \range{pages}{5}
+    \endentry
+    \entry{Reg05}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=f945cb644f60f5c1d47ef6bce1233586}{%
+           family={Regev},
+           familyi={R\bibinitperiod},
+           given={Oded},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{f945cb644f60f5c1d47ef6bce1233586}
+      \strng{fullhash}{f945cb644f60f5c1d47ef6bce1233586}
+      \strng{fullhashraw}{f945cb644f60f5c1d47ef6bce1233586}
+      \strng{bibnamehash}{f945cb644f60f5c1d47ef6bce1233586}
+      \strng{authorbibnamehash}{f945cb644f60f5c1d47ef6bce1233586}
+      \strng{authornamehash}{f945cb644f60f5c1d47ef6bce1233586}
+      \strng{authorfullhash}{f945cb644f60f5c1d47ef6bce1233586}
+      \strng{authorfullhashraw}{f945cb644f60f5c1d47ef6bce1233586}
+      \field{extraname}{1}
+      \field{labelalpha}{Reg05}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Thirty-Seventh Annual ACM Symposium on Theory of Computing}
+      \field{series}{STOC '05'}
+      \field{title}{On Lattices, Learning with Errors, Random Linear Codes, and Cryptography}
+      \field{year}{2005}
+      \field{pages}{84\bibrangedash 93}
+      \range{pages}{10}
+    \endentry
+    \entry{av3}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=b3211adf5dbe7a65b2b1f58cab4f6a0c}{%
+           family={Micciancio},
+           familyi={M\bibinitperiod},
+           given={Daniele},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f945cb644f60f5c1d47ef6bce1233586}{%
+           family={Regev},
+           familyi={R\bibinitperiod},
+           given={Oded},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{f66125686f6b5b498ebec5d30503d8fa}
+      \strng{fullhash}{f66125686f6b5b498ebec5d30503d8fa}
+      \strng{fullhashraw}{f66125686f6b5b498ebec5d30503d8fa}
+      \strng{bibnamehash}{f66125686f6b5b498ebec5d30503d8fa}
+      \strng{authorbibnamehash}{f66125686f6b5b498ebec5d30503d8fa}
+      \strng{authornamehash}{f66125686f6b5b498ebec5d30503d8fa}
+      \strng{authorfullhash}{f66125686f6b5b498ebec5d30503d8fa}
+      \strng{authorfullhashraw}{f66125686f6b5b498ebec5d30503d8fa}
+      \field{labelalpha}{MR07}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SIAM Journal on Computing}
+      \field{number}{1}
+      \field{title}{Worst‐Case to Average‐Case Reductions Based on Gaussian Measures}
+      \field{volume}{37}
+      \field{year}{2007}
+      \field{pages}{267\bibrangedash 302}
+      \range{pages}{36}
+      \verb{doi}
+      \verb 10.1137/S0097539705447360
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1137/S0097539705447360
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1137/S0097539705447360
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1137/S0097539705447360
+      \endverb
+    \endentry
+    \entry{bootstrapping}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=bd007b2a3d698c39bd758b253f7c2ebf}{%
+           family={Gentry},
+           familyi={G\bibinitperiod},
+           given={Craig},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Bethesda, MD, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{bd007b2a3d698c39bd758b253f7c2ebf}
+      \strng{fullhash}{bd007b2a3d698c39bd758b253f7c2ebf}
+      \strng{fullhashraw}{bd007b2a3d698c39bd758b253f7c2ebf}
+      \strng{bibnamehash}{bd007b2a3d698c39bd758b253f7c2ebf}
+      \strng{authorbibnamehash}{bd007b2a3d698c39bd758b253f7c2ebf}
+      \strng{authornamehash}{bd007b2a3d698c39bd758b253f7c2ebf}
+      \strng{authorfullhash}{bd007b2a3d698c39bd758b253f7c2ebf}
+      \strng{authorfullhashraw}{bd007b2a3d698c39bd758b253f7c2ebf}
+      \field{labelalpha}{Gen09}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We propose a fully homomorphic encryption scheme -- i.e., a scheme that allows one to evaluate circuits over encrypted data without being able to decrypt. Our solution comes in three steps. First, we provide a general result -- that, to construct an encryption scheme that permits evaluation of arbitrary circuits, it suffices to construct an encryption scheme that can evaluate (slightly augmented versions of) its own decryption circuit; we call a scheme that can evaluate its (augmented) decryption circuit bootstrappable.Next, we describe a public key encryption scheme using ideal lattices that is almost bootstrappable.Lattice-based cryptosystems typically have decryption algorithms with low circuit complexity, often dominated by an inner product computation that is in NC1. Also, ideal lattices provide both additive and multiplicative homomorphisms (modulo a public-key ideal in a polynomial ring that is represented as a lattice), as needed to evaluate general circuits.Unfortunately, our initial scheme is not quite bootstrappable -- i.e., the depth that the scheme can correctly evaluate can be logarithmic in the lattice dimension, just like the depth of the decryption circuit, but the latter is greater than the former. In the final step, we show how to modify the scheme to reduce the depth of the decryption circuit, and thereby obtain a bootstrappable encryption scheme, without reducing the depth that the scheme can evaluate. Abstractly, we accomplish this by enabling the encrypter to start the decryption process, leaving less work for the decrypter, much like the server leaves less work for the decrypter in a server-aided cryptosystem.}
+      \field{booktitle}{Proceedings of the Forty-First Annual ACM Symposium on Theory of Computing}
+      \field{isbn}{9781605585062}
+      \field{series}{STOC '09'}
+      \field{title}{Fully Homomorphic Encryption Using Ideal Lattices}
+      \field{year}{2009}
+      \field{pages}{169\bibrangedash 178}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/1536414.1536440
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/1536414.1536440
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/1536414.1536440
+      \endverb
+      \keyw{fully homomorphic encryption}
+    \endentry
+    \entry{Pei09a}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=910b4f34f67502ebf51d7391c9ce096b}{%
+           family={Peikert},
+           familyi={P\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{910b4f34f67502ebf51d7391c9ce096b}
+      \strng{fullhash}{910b4f34f67502ebf51d7391c9ce096b}
+      \strng{fullhashraw}{910b4f34f67502ebf51d7391c9ce096b}
+      \strng{bibnamehash}{910b4f34f67502ebf51d7391c9ce096b}
+      \strng{authorbibnamehash}{910b4f34f67502ebf51d7391c9ce096b}
+      \strng{authornamehash}{910b4f34f67502ebf51d7391c9ce096b}
+      \strng{authorfullhash}{910b4f34f67502ebf51d7391c9ce096b}
+      \strng{authorfullhashraw}{910b4f34f67502ebf51d7391c9ce096b}
+      \field{labelalpha}{Pei09}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Forty-First Annual ACM Symposium on Theory of Computing}
+      \field{series}{STOC '09'}
+      \field{title}{Public-Key Cryptosystems from the Worst-Case Shortest Vector Problem}
+      \field{year}{2009}
+      \field{pages}{333\bibrangedash 342}
+      \range{pages}{10}
+    \endentry
+    \entry{av1}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=f945cb644f60f5c1d47ef6bce1233586}{%
+           family={Regev},
+           familyi={R\bibinitperiod},
+           given={Oded},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{f945cb644f60f5c1d47ef6bce1233586}
+      \strng{fullhash}{f945cb644f60f5c1d47ef6bce1233586}
+      \strng{fullhashraw}{f945cb644f60f5c1d47ef6bce1233586}
+      \strng{bibnamehash}{f945cb644f60f5c1d47ef6bce1233586}
+      \strng{authorbibnamehash}{f945cb644f60f5c1d47ef6bce1233586}
+      \strng{authornamehash}{f945cb644f60f5c1d47ef6bce1233586}
+      \strng{authorfullhash}{f945cb644f60f5c1d47ef6bce1233586}
+      \strng{authorfullhashraw}{f945cb644f60f5c1d47ef6bce1233586}
+      \field{extraname}{2}
+      \field{labelalpha}{Reg09}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Our main result is a reduction from worst-case lattice problems such as GapSVP and SIVP to a certain learning problem. This learning problem is a natural extension of the “learning from parity with error” problem to higher moduli. It can also be viewed as the problem of decoding from a random linear code. This, we believe, gives a strong indication that these problems are hard. Our reduction, however, is quantum. Hence, an efficient solution to the learning problem implies a quantum algorithm for GapSVP and SIVP. A main open question is whether this reduction can be made classical (i.e., nonquantum).We also present a (classical) public-key cryptosystem whose security is based on the hardness of the learning problem. By the main result, its security is also based on the worst-case quantum hardness of GapSVP and SIVP. The new cryptosystem is much more efficient than previous lattice-based cryptosystems: the public key is of size Õ(n2) and encrypting a message increases its size by a factor of Õ(n) (in previous cryptosystems these values are Õ(n4) and Õ(n2), respectively). In fact, under the assumption that all parties share a random bit string of length Õ(n2), the size of the public key can be reduced to Õ(n).}
+      \field{issn}{0004-5411}
+      \field{journaltitle}{J. ACM}
+      \field{month}{9}
+      \field{number}{6}
+      \field{title}{On lattices, learning with errors, random linear codes, and cryptography}
+      \field{volume}{56}
+      \field{year}{2009}
+      \verb{doi}
+      \verb 10.1145/1568318.1568324
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/1568318.1568324
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/1568318.1568324
+      \endverb
+      \keyw{Lattice,average-case hardness,cryptography,public key encryption,quantum computation}
+    \endentry
+    \entry{idealLatticeRLWE}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=928bcadb00050adca6148fe4cbefc5d7}{%
+           family={Lyubashevsky},
+           familyi={L\bibinitperiod},
+           given={Vadim},
+           giveni={V\bibinitperiod}}}%
+        {{hash=910b4f34f67502ebf51d7391c9ce096b}{%
+           family={Peikert},
+           familyi={P\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f945cb644f60f5c1d47ef6bce1233586}{%
+           family={Regev},
+           familyi={R\bibinitperiod},
+           given={Oded},
+           giveni={O\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=312359d3b416dc36d67dab0e5f171530}{%
+           family={Gilbert},
+           familyi={G\bibinitperiod},
+           given={Henri},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{d24712455ce167a2183dd923f59e00c3}
+      \strng{fullhash}{d24712455ce167a2183dd923f59e00c3}
+      \strng{fullhashraw}{d24712455ce167a2183dd923f59e00c3}
+      \strng{bibnamehash}{d24712455ce167a2183dd923f59e00c3}
+      \strng{authorbibnamehash}{d24712455ce167a2183dd923f59e00c3}
+      \strng{authornamehash}{d24712455ce167a2183dd923f59e00c3}
+      \strng{authorfullhash}{d24712455ce167a2183dd923f59e00c3}
+      \strng{authorfullhashraw}{d24712455ce167a2183dd923f59e00c3}
+      \strng{editorbibnamehash}{312359d3b416dc36d67dab0e5f171530}
+      \strng{editornamehash}{312359d3b416dc36d67dab0e5f171530}
+      \strng{editorfullhash}{312359d3b416dc36d67dab0e5f171530}
+      \strng{editorfullhashraw}{312359d3b416dc36d67dab0e5f171530}
+      \field{extraname}{1}
+      \field{labelalpha}{LPR10}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The ``learning with errors'' (LWE) problem is to distinguish random linear equations, which have been perturbed by a small amount of noise, from truly uniform ones. The problem has been shown to be as hard as worst-case lattice problems, and in recent years it has served as the foundation for a plethora of cryptographic applications. Unfortunately, these applications are rather inefficient due to an inherent quadratic overhead in the use of LWE. A main open question was whether LWE and its applications could be made truly efficient by exploiting extra algebraic structure, as was done for lattice-based hash functions (and related primitives).}
+      \field{booktitle}{Advances in Cryptology -- EUROCRYPT 2010}
+      \field{isbn}{978-3-642-13190-5}
+      \field{title}{On Ideal Lattices and Learning with Errors over Rings}
+      \field{year}{2010}
+      \field{pages}{1\bibrangedash 23}
+      \range{pages}{23}
+    \endentry
+    \entry{bfv1}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=9a0f2b40e3163796c628306096e94fd6}{%
+           family={Brakerski},
+           familyi={B\bibinitperiod},
+           given={Zvika},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=97ac49106242645f4481f926c7afee17}{%
+           family={Safavi-Naini},
+           familyi={S\bibinithyphendelim N\bibinitperiod},
+           given={Reihaneh},
+           giveni={R\bibinitperiod}}}%
+        {{hash=7faf0f3900af6c70795ea089d283f02e}{%
+           family={Canetti},
+           familyi={C\bibinitperiod},
+           given={Ran},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{9a0f2b40e3163796c628306096e94fd6}
+      \strng{fullhash}{9a0f2b40e3163796c628306096e94fd6}
+      \strng{fullhashraw}{9a0f2b40e3163796c628306096e94fd6}
+      \strng{bibnamehash}{9a0f2b40e3163796c628306096e94fd6}
+      \strng{authorbibnamehash}{9a0f2b40e3163796c628306096e94fd6}
+      \strng{authornamehash}{9a0f2b40e3163796c628306096e94fd6}
+      \strng{authorfullhash}{9a0f2b40e3163796c628306096e94fd6}
+      \strng{authorfullhashraw}{9a0f2b40e3163796c628306096e94fd6}
+      \strng{editorbibnamehash}{4ae4add3398209f0845c9474f8824f27}
+      \strng{editornamehash}{4ae4add3398209f0845c9474f8824f27}
+      \strng{editorfullhash}{4ae4add3398209f0845c9474f8824f27}
+      \strng{editorfullhashraw}{4ae4add3398209f0845c9474f8824f27}
+      \field{labelalpha}{Bra12}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present a new tensoring technique for LWE-based fully homomorphic encryption. While in all previous works, the ciphertext noise grows quadratically ({\$}{\$}B {\backslash}rightarrow B^2{\backslash}cdot {\backslash}text {\{}poly{\}}(n){\$}{\$}) with every multiplication (before ``refreshing''), our noise only grows linearly ({\$}{\$}B {\backslash}rightarrow B{\backslash}cdot {\backslash}text {\{}poly{\}}(n){\$}{\$}).}
+      \field{booktitle}{Advances in Cryptology -- CRYPTO 2012}
+      \field{isbn}{978-3-642-32009-5}
+      \field{title}{Fully Homomorphic Encryption without Modulus Switching from Classical GapSVP}
+      \field{year}{2012}
+      \field{pages}{868\bibrangedash 886}
+      \range{pages}{19}
+    \endentry
+    \entry{BGV}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=9a0f2b40e3163796c628306096e94fd6}{%
+           family={Brakerski},
+           familyi={B\bibinitperiod},
+           given={Zvika},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=bd007b2a3d698c39bd758b253f7c2ebf}{%
+           family={Gentry},
+           familyi={G\bibinitperiod},
+           given={Craig},
+           giveni={C\bibinitperiod}}}%
+        {{hash=bcd43d9385708d5fa3dbc36c49d8e579}{%
+           family={Vaikuntanathan},
+           familyi={V\bibinitperiod},
+           given={Vinod},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, Massachusetts}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{9e2471e59619f19ba7b0995540830d7a}
+      \strng{fullhash}{9e2471e59619f19ba7b0995540830d7a}
+      \strng{fullhashraw}{9e2471e59619f19ba7b0995540830d7a}
+      \strng{bibnamehash}{9e2471e59619f19ba7b0995540830d7a}
+      \strng{authorbibnamehash}{9e2471e59619f19ba7b0995540830d7a}
+      \strng{authornamehash}{9e2471e59619f19ba7b0995540830d7a}
+      \strng{authorfullhash}{9e2471e59619f19ba7b0995540830d7a}
+      \strng{authorfullhashraw}{9e2471e59619f19ba7b0995540830d7a}
+      \field{labelalpha}{BGV12}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present a novel approach to fully homomorphic encryption (FHE) that dramatically improves performance and bases security on weaker assumptions. A central conceptual contribution in our work is a new way of constructing leveled fully homomorphic encryption schemes (capable of evaluating arbitrary polynomial-size circuits), without Gentry's bootstrapping procedure.Specifically, we offer a choice of FHE schemes based on the learning with error (LWE) or ring-LWE (RLWE) problems that have 2λ security against known attacks. For RLWE, we have:• A leveled FHE scheme that can evaluate L-level arithmetic circuits with Õ(λ · L3) per-gate computation -- i.e., computation quasi-linear in the security parameter. Security is based on RLWE for an approximation factor exponential in L. This construction does not use the bootstrapping procedure.• A leveled FHE scheme that uses bootstrapping as an optimization, where the per-gate computation (which includes the bootstrapping procedure) is Õ(λ2), independent of L. Security is based on the hardness of RLWE for quasi-polynomial factors (as opposed to the sub-exponential factors needed in previous schemes).We obtain similar results to the above for LWE, but with worse performance.Based on the Ring LWE assumption, we introduce a number of further optimizations to our schemes. As an example, for circuits of large width -- e.g., where a constant fraction of levels have width at least λ -- we can reduce the per-gate computation of the bootstrapped version to Õ(λ), independent of L, by batching the bootstrapping operation. Previous FHE schemes all required Ω(λ3.5) computation per gate.At the core of our construction is a much more effective approach for managing the noise level of lattice-based ciphertexts as homomorphic operations are performed, using some new techniques recently introduced by Brakerski and Vaikuntanathan (FOCS 2011).}
+      \field{booktitle}{Proceedings of the 3rd Innovations in Theoretical Computer Science Conference}
+      \field{isbn}{9781450311151}
+      \field{series}{ITCS '12}
+      \field{title}{(Leveled) fully homomorphic encryption without bootstrapping}
+      \field{year}{2012}
+      \field{pages}{309\bibrangedash 325}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1145/2090236.2090262
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/2090236.2090262
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/2090236.2090262
+      \endverb
+      \keyw{modulus reduction,learning with errors,fully homomorphic encryption,bootstrapping}
+    \endentry
+    \entry{bfv2}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=c701ae48029563f55b68410f37ab3134}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Junfeng},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ec6bfa044bee14362b9d05e791d67a64}{%
+           family={Vercauteren},
+           familyi={V\bibinitperiod},
+           given={Frederik},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{b96a9da236bf7ed93aea73ee2982402c}
+      \strng{fullhash}{b96a9da236bf7ed93aea73ee2982402c}
+      \strng{fullhashraw}{b96a9da236bf7ed93aea73ee2982402c}
+      \strng{bibnamehash}{b96a9da236bf7ed93aea73ee2982402c}
+      \strng{authorbibnamehash}{b96a9da236bf7ed93aea73ee2982402c}
+      \strng{authornamehash}{b96a9da236bf7ed93aea73ee2982402c}
+      \strng{authorfullhash}{b96a9da236bf7ed93aea73ee2982402c}
+      \strng{authorfullhashraw}{b96a9da236bf7ed93aea73ee2982402c}
+      \field{extraname}{1}
+      \field{labelalpha}{FV12}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Cryptology {ePrint} Archive, Paper 2012/144}
+      \field{title}{Somewhat Practical Fully Homomorphic Encryption}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb https://eprint.iacr.org/2012/144
+      \endverb
+      \verb{url}
+      \verb https://eprint.iacr.org/2012/144
+      \endverb
+    \endentry
+    \entry{fan2012somewhat}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=c701ae48029563f55b68410f37ab3134}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Junfeng},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ec6bfa044bee14362b9d05e791d67a64}{%
+           family={Vercauteren},
+           familyi={V\bibinitperiod},
+           given={Frederik},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Citeseer}%
+      }
+      \strng{namehash}{b96a9da236bf7ed93aea73ee2982402c}
+      \strng{fullhash}{b96a9da236bf7ed93aea73ee2982402c}
+      \strng{fullhashraw}{b96a9da236bf7ed93aea73ee2982402c}
+      \strng{bibnamehash}{b96a9da236bf7ed93aea73ee2982402c}
+      \strng{authorbibnamehash}{b96a9da236bf7ed93aea73ee2982402c}
+      \strng{authornamehash}{b96a9da236bf7ed93aea73ee2982402c}
+      \strng{authorfullhash}{b96a9da236bf7ed93aea73ee2982402c}
+      \strng{authorfullhashraw}{b96a9da236bf7ed93aea73ee2982402c}
+      \field{extraname}{2}
+      \field{labelalpha}{FV12}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IACR Cryptol. ePrint Arch.}
+      \field{title}{Somewhat practical fully homomorphic encryption.}
+      \field{volume}{2012}
+      \field{year}{2012}
+      \field{pages}{144}
+      \range{pages}{1}
+    \endentry
+    \entry{av5}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=33997d2235d412072c8409189c68b4cd}{%
+           family={Langlois},
+           familyi={L\bibinitperiod},
+           given={Adeline},
+           giveni={A\bibinitperiod}}}%
+        {{hash=589d33cc0094d51211bef3b93ec84fcd}{%
+           family={Stehle},
+           familyi={S\bibinitperiod},
+           given={Damien},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{a034a48b8e4f3e61fb06c1d22902b312}
+      \strng{fullhash}{a034a48b8e4f3e61fb06c1d22902b312}
+      \strng{fullhashraw}{a034a48b8e4f3e61fb06c1d22902b312}
+      \strng{bibnamehash}{a034a48b8e4f3e61fb06c1d22902b312}
+      \strng{authorbibnamehash}{a034a48b8e4f3e61fb06c1d22902b312}
+      \strng{authornamehash}{a034a48b8e4f3e61fb06c1d22902b312}
+      \strng{authorfullhash}{a034a48b8e4f3e61fb06c1d22902b312}
+      \strng{authorfullhashraw}{a034a48b8e4f3e61fb06c1d22902b312}
+      \field{labelalpha}{LS12}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Cryptology {ePrint} Archive, Paper 2012/090}
+      \field{title}{Worst-Case to Average-Case Reductions for Module Lattices}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb https://eprint.iacr.org/2012/090
+      \endverb
+      \verb{url}
+      \verb https://eprint.iacr.org/2012/090
+      \endverb
+    \endentry
+    \entry{FE}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=f44b616203b8941ff108412c228737c2}{%
+           family={Boyen},
+           familyi={B\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=0e9166224409c3d193f407331ef18b02}{%
+           family={Sahai},
+           familyi={S\bibinitperiod},
+           given={Amit},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{f44b616203b8941ff108412c228737c2}
+      \strng{fullhash}{f44b616203b8941ff108412c228737c2}
+      \strng{fullhashraw}{f44b616203b8941ff108412c228737c2}
+      \strng{bibnamehash}{f44b616203b8941ff108412c228737c2}
+      \strng{authorbibnamehash}{f44b616203b8941ff108412c228737c2}
+      \strng{authornamehash}{f44b616203b8941ff108412c228737c2}
+      \strng{authorfullhash}{f44b616203b8941ff108412c228737c2}
+      \strng{authorfullhashraw}{f44b616203b8941ff108412c228737c2}
+      \strng{editorbibnamehash}{0e9166224409c3d193f407331ef18b02}
+      \strng{editornamehash}{0e9166224409c3d193f407331ef18b02}
+      \strng{editorfullhash}{0e9166224409c3d193f407331ef18b02}
+      \strng{editorfullhashraw}{0e9166224409c3d193f407331ef18b02}
+      \field{labelalpha}{Boy13}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We introduce a broad lattice manipulation technique for expressive cryptography, and use it to realize functional encryption for access structures from post-quantum hardness assumptions.}
+      \field{booktitle}{Theory of Cryptography}
+      \field{isbn}{978-3-642-36594-2}
+      \field{title}{Attribute-Based Functional Encryption on Lattices}
+      \field{year}{2013}
+      \field{pages}{122\bibrangedash 142}
+      \range{pages}{21}
+    \endentry
+    \entry{av2}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{hash=9a0f2b40e3163796c628306096e94fd6}{%
+           family={Brakerski},
+           familyi={B\bibinitperiod},
+           given={Zvika},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=33997d2235d412072c8409189c68b4cd}{%
+           family={Langlois},
+           familyi={L\bibinitperiod},
+           given={Adeline},
+           giveni={A\bibinitperiod}}}%
+        {{hash=910b4f34f67502ebf51d7391c9ce096b}{%
+           family={Peikert},
+           familyi={P\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f945cb644f60f5c1d47ef6bce1233586}{%
+           family={Regev},
+           familyi={R\bibinitperiod},
+           given={Oded},
+           giveni={O\bibinitperiod}}}%
+        {{hash=a62525428858d55df35a4c76348af2b9}{%
+           family={Stehlé},
+           familyi={S\bibinitperiod},
+           given={Damien},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Palo Alto, California, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{430397a8312454e634d4585a9adab3c1}
+      \strng{fullhash}{d57c5ee508700f638b37df24f2a6a196}
+      \strng{fullhashraw}{d57c5ee508700f638b37df24f2a6a196}
+      \strng{bibnamehash}{430397a8312454e634d4585a9adab3c1}
+      \strng{authorbibnamehash}{430397a8312454e634d4585a9adab3c1}
+      \strng{authornamehash}{430397a8312454e634d4585a9adab3c1}
+      \strng{authorfullhash}{d57c5ee508700f638b37df24f2a6a196}
+      \strng{authorfullhashraw}{d57c5ee508700f638b37df24f2a6a196}
+      \field{labelalpha}{Bra+13}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We show that the Learning with Errors (LWE) problem is classically at least as hard as standard worst-case lattice problems. Previously this was only known under quantum reductions.Our techniques capture the tradeoff between the dimension and the modulus of LWE instances, leading to a much better understanding of the landscape of the problem. The proof is inspired by techniques from several recent cryptographic constructions, most notably fully homomorphic encryption schemes.}
+      \field{booktitle}{Proceedings of the Forty-Fifth Annual ACM Symposium on Theory of Computing}
+      \field{isbn}{9781450320290}
+      \field{series}{STOC '13'}
+      \field{title}{Classical hardness of learning with errors}
+      \field{year}{2013}
+      \field{pages}{575\bibrangedash 584}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/2488608.2488680
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/2488608.2488680
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/2488608.2488680
+      \endverb
+      \keyw{lattices,learning with errors}
+    \endentry
+    \entry{toolkitRLWE}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=928bcadb00050adca6148fe4cbefc5d7}{%
+           family={Lyubashevsky},
+           familyi={L\bibinitperiod},
+           given={Vadim},
+           giveni={V\bibinitperiod}}}%
+        {{hash=910b4f34f67502ebf51d7391c9ce096b}{%
+           family={Peikert},
+           familyi={P\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f945cb644f60f5c1d47ef6bce1233586}{%
+           family={Regev},
+           familyi={R\bibinitperiod},
+           given={Oded},
+           giveni={O\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=26f717fe7a7a054c169842e802060843}{%
+           family={Johansson},
+           familyi={J\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=500e4d6cc852eac325b85a406d5ca4d9}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={Phong\bibnamedelima Q.},
+           giveni={P\bibinitperiod\bibinitdelim Q\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{d24712455ce167a2183dd923f59e00c3}
+      \strng{fullhash}{d24712455ce167a2183dd923f59e00c3}
+      \strng{fullhashraw}{d24712455ce167a2183dd923f59e00c3}
+      \strng{bibnamehash}{d24712455ce167a2183dd923f59e00c3}
+      \strng{authorbibnamehash}{d24712455ce167a2183dd923f59e00c3}
+      \strng{authornamehash}{d24712455ce167a2183dd923f59e00c3}
+      \strng{authorfullhash}{d24712455ce167a2183dd923f59e00c3}
+      \strng{authorfullhashraw}{d24712455ce167a2183dd923f59e00c3}
+      \strng{editorbibnamehash}{550fec25120b08d4c418260fcb5d757d}
+      \strng{editornamehash}{550fec25120b08d4c418260fcb5d757d}
+      \strng{editorfullhash}{550fec25120b08d4c418260fcb5d757d}
+      \strng{editorfullhashraw}{550fec25120b08d4c418260fcb5d757d}
+      \field{extraname}{2}
+      \field{labelalpha}{LPR13}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recent advances in lattice cryptography, mainly stemming from the development of ring-based primitives such as ring-LWE, have made it possible to design cryptographic schemes whose efficiency is competitive with that of more traditional number-theoretic ones, along with entirely new applications like fully homomorphic encryption. Unfortunately, realizing the full potential of ring-based cryptography has so far been hindered by a lack of practical algorithms and analytical tools for working in this context. As a result, most previous works have focused on very special classes of rings such as power-of-two cyclotomics, which significantly restricts the possible applications.}
+      \field{booktitle}{Advances in Cryptology -- EUROCRYPT 2013}
+      \field{isbn}{978-3-642-38348-9}
+      \field{title}{A Toolkit for Ring-LWE Cryptography}
+      \field{year}{2013}
+      \field{pages}{35\bibrangedash 54}
+      \range{pages}{20}
+    \endentry
+    \entry{av4}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=928bcadb00050adca6148fe4cbefc5d7}{%
+           family={Lyubashevsky},
+           familyi={L\bibinitperiod},
+           given={Vadim},
+           giveni={V\bibinitperiod}}}%
+        {{hash=910b4f34f67502ebf51d7391c9ce096b}{%
+           family={Peikert},
+           familyi={P\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f945cb644f60f5c1d47ef6bce1233586}{%
+           family={Regev},
+           familyi={R\bibinitperiod},
+           given={Oded},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{d24712455ce167a2183dd923f59e00c3}
+      \strng{fullhash}{d24712455ce167a2183dd923f59e00c3}
+      \strng{fullhashraw}{d24712455ce167a2183dd923f59e00c3}
+      \strng{bibnamehash}{d24712455ce167a2183dd923f59e00c3}
+      \strng{authorbibnamehash}{d24712455ce167a2183dd923f59e00c3}
+      \strng{authornamehash}{d24712455ce167a2183dd923f59e00c3}
+      \strng{authorfullhash}{d24712455ce167a2183dd923f59e00c3}
+      \strng{authorfullhashraw}{d24712455ce167a2183dd923f59e00c3}
+      \field{extraname}{3}
+      \field{labelalpha}{LPR13}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The “learning with errors” (LWE) problem is to distinguish random linear equations, which have been perturbed by a small amount of noise, from truly uniform ones. The problem has been shown to be as hard as worst-case lattice problems, and in recent years it has served as the foundation for a plethora of cryptographic applications. Unfortunately, these applications are rather inefficient due to an inherent quadratic overhead in the use of LWE. A main open question was whether LWE and its applications could be made truly efficient by exploiting extra algebraic structure, as was done for lattice-based hash functions (and related primitives).We resolve this question in the affirmative by introducing an algebraic variant of LWE called ring-LWE, and proving that it too enjoys very strong hardness guarantees. Specifically, we show that the ring-LWE distribution is pseudorandom, assuming that worst-case problems on ideal lattices are hard for polynomial-time quantum algorithms. Applications include the first truly practical lattice-based public-key cryptosystem with an efficient security reduction; moreover, many of the other applications of LWE can be made much more efficient through the use of ring-LWE.}
+      \field{issn}{0004-5411}
+      \field{journaltitle}{J. ACM}
+      \field{month}{11}
+      \field{number}{6}
+      \field{title}{On Ideal Lattices and Learning with Errors over Rings}
+      \field{volume}{60}
+      \field{year}{2013}
+      \verb{doi}
+      \verb 10.1145/2535925
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/2535925
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/2535925
+      \endverb
+      \keyw{Lattice,average-case hardness,cryptography,public key encryption,quantum computation}
+    \endentry
+    \entry{hsig}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=541d0d8d913c8b9165e9c809e06293c6}{%
+           family={Gorbunov},
+           familyi={G\bibinitperiod},
+           given={Sergey},
+           giveni={S\bibinitperiod}}}%
+        {{hash=bcd43d9385708d5fa3dbc36c49d8e579}{%
+           family={Vaikuntanathan},
+           familyi={V\bibinitperiod},
+           given={Vinod},
+           giveni={V\bibinitperiod}}}%
+        {{hash=e70142f333ab926e7234ddfa7cba6db2}{%
+           family={Wichs},
+           familyi={W\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Portland, Oregon, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{439efc4bace27361785d079586b94d8f}
+      \strng{fullhash}{439efc4bace27361785d079586b94d8f}
+      \strng{fullhashraw}{439efc4bace27361785d079586b94d8f}
+      \strng{bibnamehash}{439efc4bace27361785d079586b94d8f}
+      \strng{authorbibnamehash}{439efc4bace27361785d079586b94d8f}
+      \strng{authornamehash}{439efc4bace27361785d079586b94d8f}
+      \strng{authorfullhash}{439efc4bace27361785d079586b94d8f}
+      \strng{authorfullhashraw}{439efc4bace27361785d079586b94d8f}
+      \field{labelalpha}{GVW15}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Forty-Seventh Annual ACM Symposium on Theory of Computing}
+      \field{isbn}{9781450335362}
+      \field{series}{STOC '15}
+      \field{title}{Leveled Fully Homomorphic Signatures from Standard Lattices}
+      \field{year}{2015}
+      \field{pages}{469\bibrangedash 477}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1145/2746539.2746576
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/2746539.2746576
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/2746539.2746576
+      \endverb
+      \keyw{homomorphic signatures,lattices,sis}
+    \endentry
+    \entry{cheon2017homomorphic}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=6bdc4346455a7e20ad7e61cd19bdfcd3}{%
+           family={Cheon},
+           familyi={C\bibinitperiod},
+           given={Jung\bibnamedelima Hee},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=c015d2c8e71fed27aee8e4b067d84662}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Andrey},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ebb1f81c865d401d1fc2acb78a8944df}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Miran},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5331cd8c7d19cb38bdc22b5c454d7723}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Yongsoo},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{9751b11baa89a7611c73e385df96934c}
+      \strng{fullhash}{6dd888b9459f93cdb158345cdbdd3d4d}
+      \strng{fullhashraw}{6dd888b9459f93cdb158345cdbdd3d4d}
+      \strng{bibnamehash}{9751b11baa89a7611c73e385df96934c}
+      \strng{authorbibnamehash}{9751b11baa89a7611c73e385df96934c}
+      \strng{authornamehash}{9751b11baa89a7611c73e385df96934c}
+      \strng{authorfullhash}{6dd888b9459f93cdb158345cdbdd3d4d}
+      \strng{authorfullhashraw}{6dd888b9459f93cdb158345cdbdd3d4d}
+      \field{extraname}{1}
+      \field{labelalpha}{Che+17}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on the Theory and Application of Cryptology and Information Security}
+      \field{title}{Homomorphic encryption for arithmetic of approximate numbers}
+      \field{year}{2017}
+      \field{pages}{409\bibrangedash 437}
+      \range{pages}{29}
+    \endentry
+    \entry{10.1007/978-3-319-78381-9_14}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{hash=6bdc4346455a7e20ad7e61cd19bdfcd3}{%
+           family={Cheon},
+           familyi={C\bibinitperiod},
+           given={Jung\bibnamedelima Hee},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=22f366059d0fb38498b8d724ecbf639d}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Kyoohyung},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c015d2c8e71fed27aee8e4b067d84662}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Andrey},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ebb1f81c865d401d1fc2acb78a8944df}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Miran},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5331cd8c7d19cb38bdc22b5c454d7723}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Yongsoo},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=6535189281ff6a1012638e384823f5cf}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Jesper\bibnamedelima Buus},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=d2e51b6dbeb039e27ea5d1a6f5d63302}{%
+           family={Rijmen},
+           familyi={R\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{9751b11baa89a7611c73e385df96934c}
+      \strng{fullhash}{63014cdbf2e90757680d182020727289}
+      \strng{fullhashraw}{63014cdbf2e90757680d182020727289}
+      \strng{bibnamehash}{9751b11baa89a7611c73e385df96934c}
+      \strng{authorbibnamehash}{9751b11baa89a7611c73e385df96934c}
+      \strng{authornamehash}{9751b11baa89a7611c73e385df96934c}
+      \strng{authorfullhash}{63014cdbf2e90757680d182020727289}
+      \strng{authorfullhashraw}{63014cdbf2e90757680d182020727289}
+      \strng{editorbibnamehash}{3f0a828284fcc15d8a0881a45c1726da}
+      \strng{editornamehash}{3f0a828284fcc15d8a0881a45c1726da}
+      \strng{editorfullhash}{3f0a828284fcc15d8a0881a45c1726da}
+      \strng{editorfullhashraw}{3f0a828284fcc15d8a0881a45c1726da}
+      \field{extraname}{2}
+      \field{labelalpha}{Che+18}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper extends the leveled homomorphic encryption scheme for an approximate arithmetic of Cheon et al. (ASIACRYPT 2017) to a fully homomorphic encryption, i.e., we propose a new technique to refresh low-level ciphertexts based on Gentry's bootstrapping procedure. The modular reduction operation is the main bottleneck in the homomorphic evaluation of the decryption circuit. We exploit a scaled sine function as an approximation of the modular reduction operation and present an efficient evaluation strategy. Our method requires only one homomorphic multiplication for each of iterations and so the total computation cost grows linearly with the depth of the decryption circuit. We also show how to recrypt packed ciphertexts on the RLWE construction with an open-source implementation. For example, it takes 139.8 s to refresh a ciphertext that encrypts 128 numbers with 12 bits of precision, yielding an amortized rate of 1.1 seconds per slot.}
+      \field{booktitle}{Advances in Cryptology -- EUROCRYPT 2018}
+      \field{isbn}{978-3-319-78381-9}
+      \field{title}{Bootstrapping for Approximate Homomorphic Encryption}
+      \field{year}{2018}
+      \field{pages}{360\bibrangedash 384}
+      \range{pages}{25}
+    \endentry
+    \entry{Kim2018}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=c015d2c8e71fed27aee8e4b067d84662}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Andrey},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5331cd8c7d19cb38bdc22b5c454d7723}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Yongsoo},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=ebb1f81c865d401d1fc2acb78a8944df}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Miran},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2ef4c279ae36a28db5a8ca3bf1949d42}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Keewoo},
+           giveni={K\bibinitperiod}}}%
+        {{hash=6bdc4346455a7e20ad7e61cd19bdfcd3}{%
+           family={Cheon},
+           familyi={C\bibinitperiod},
+           given={Jung\bibnamedelima Hee},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f2e1b6ad8084bb30c1100b3140ab318}
+      \strng{fullhash}{0649a8fc20eb1f01695a0af8b76e997b}
+      \strng{fullhashraw}{0649a8fc20eb1f01695a0af8b76e997b}
+      \strng{bibnamehash}{3f2e1b6ad8084bb30c1100b3140ab318}
+      \strng{authorbibnamehash}{3f2e1b6ad8084bb30c1100b3140ab318}
+      \strng{authornamehash}{3f2e1b6ad8084bb30c1100b3140ab318}
+      \strng{authorfullhash}{0649a8fc20eb1f01695a0af8b76e997b}
+      \strng{authorfullhashraw}{0649a8fc20eb1f01695a0af8b76e997b}
+      \field{extraname}{1}
+      \field{labelalpha}{Kim+18}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1755-8794}
+      \field{journaltitle}{BMC Medical Genomics}
+      \field{month}{10}
+      \field{number}{4}
+      \field{title}{Logistic regression model training based on the approximate homomorphic encryption}
+      \field{volume}{11}
+      \field{year}{2018}
+      \field{pages}{83}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/s12920-018-0401-7
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1186/s12920-018-0401-7
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1186/s12920-018-0401-7
+      \endverb
+    \endentry
+    \entry{MiranKim2018}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=ebb1f81c865d401d1fc2acb78a8944df}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Miran},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5331cd8c7d19cb38bdc22b5c454d7723}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Yongsoo},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=b9c9203300a0f1ec2844a9f423ad6b93}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Shuang},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e609355ceb87a2d2836c2a6d9b744a9a}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Yuhou},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=6172c3cc9bb3a84fe04427908fc7a9ea}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Xiaoqian},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{07ec21d34629dc1f40525458c61e0459}
+      \strng{fullhash}{8e6d6296aa63bc2d99cf4a0d67da5c1e}
+      \strng{fullhashraw}{8e6d6296aa63bc2d99cf4a0d67da5c1e}
+      \strng{bibnamehash}{07ec21d34629dc1f40525458c61e0459}
+      \strng{authorbibnamehash}{07ec21d34629dc1f40525458c61e0459}
+      \strng{authornamehash}{07ec21d34629dc1f40525458c61e0459}
+      \strng{authorfullhash}{8e6d6296aa63bc2d99cf4a0d67da5c1e}
+      \strng{authorfullhashraw}{8e6d6296aa63bc2d99cf4a0d67da5c1e}
+      \field{extraname}{2}
+      \field{labelalpha}{Kim+18}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2291-9694}
+      \field{journaltitle}{JMIR Med Inform}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{Secure Logistic Regression Based on Homomorphic Encryption: Design and Evaluation}
+      \field{volume}{6}
+      \field{year}{2018}
+      \field{pages}{e19}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.2196/medinform.8805
+      \endverb
+      \verb{urlraw}
+      \verb http://www.ncbi.nlm.nih.gov/pubmed/29666041
+      \endverb
+      \verb{url}
+      \verb http://www.ncbi.nlm.nih.gov/pubmed/29666041
+      \endverb
+    \endentry
+    \entry{nist_pqc}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=ef9cb61878e61d434507444346b29d1a}{%
+           family={{National Institute of Standards and Technology}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{ef9cb61878e61d434507444346b29d1a}
+      \strng{fullhash}{ef9cb61878e61d434507444346b29d1a}
+      \strng{fullhashraw}{ef9cb61878e61d434507444346b29d1a}
+      \strng{bibnamehash}{ef9cb61878e61d434507444346b29d1a}
+      \strng{authorbibnamehash}{ef9cb61878e61d434507444346b29d1a}
+      \strng{authornamehash}{ef9cb61878e61d434507444346b29d1a}
+      \strng{authorfullhash}{ef9cb61878e61d434507444346b29d1a}
+      \strng{authorfullhashraw}{ef9cb61878e61d434507444346b29d1a}
+      \field{labelalpha}{Nat25}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://csrc.nist.gov/projects/post-quantum-cryptography}}
+      \field{month}{7}
+      \field{title}{Post-Quantum Cryptography}
+      \field{year}{2025}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,25 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {section}{\numberline {2}Preliminaries}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Lattice-Based Cryptography}{1}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Learning with Errors (LWE) Problem}{2}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Ring Learning with Errors (RLWE) Problem}{2}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Module Learning with Errors (MLWE) Problem}{3}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Fully Homomorphic Encryption and Bootstrapping}{3}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Cheon-Kim-Kim-Song homomorphic encryption scheme}{4}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Logistic Regression}{5}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Optimisation Methods for Logistic Regression with CKKS}{6}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Gradient Descent}{7}{subsection.2.9}%
+\contentsline {section}{\numberline {3}Related Work}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Secure logistic regression Based on Homomorphic Encryption: Design and Evaluation}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Logistic regression model training based on approximate homomorphic encryption}{9}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Evaluation}{11}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Implementation}{11}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Datasets}{12}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Experiment Result}{13}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Parallelization of learning}{14}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Results and conclusions}{16}{subsection.5.1}%
+\contentsline {section}{\numberline {6}Vectorization of data}{17}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Space requirements}{17}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Calculation with vectorized data}{18}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Summary and outlook}{19}{section.7}%
+\contentsline {section}{\hspace *{6mm}References}{21}{section*.15}%
