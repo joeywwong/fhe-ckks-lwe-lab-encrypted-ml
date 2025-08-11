@@ -16,12 +16,13 @@ The bootstrapping technique was initially suggested in this paper [[Gentry, STOC
 - **Gentry, STOC 2009**: Gentry, Craig. "Fully Homomorphic Encryption Using Ideal Lattices." Proceedings of the 41st Annual ACM Symposium on Theory of Computing (STOC), 2009. (https://dl.acm.org/doi/10.1145/1536414.1536440)
 - **Cheon et al., EUROCRYPT 2018**: Cheon, Jung Hee; Kim, Andrey; Kim, Miran; Song, Yongsoo. "Bootstrapping for Approximate Homomorphic Encryption." Proceedings of the 37th Annual International Conference on the Theory and Applications of Cryptographic Techniques (EUROCRYPT), 2018. (https://eprint.iacr.org/2018/153)
 
-## Skills Demonstrated
+## Knowledge Demonstrated
 
-- **Learning With Errors (LWE):** hardness assumption for FHE and post-quantum cryptography
-- **Ring-LWE:** Efficient polynomial-ring variant of LWE, reducing key sizes and improving performance.
-- **CKKS (approximate FHE):** Enables arithmetic of approximate numbers on encrypted data, ideal for ML tasks.
 - **Lattice-based Cryptography:** Hands-on implementation of LWE and Ring-LWE concepts.
+- **Learning With Errors (LWE):** hardness assumption for post-quantum cryptography
+- **Ring-LWE:** Efficient polynomial-ring variant of LWE, reducing key sizes and improving performance.
+- **Module-LWE:** A generalization of LWE and Ring-LWE, offering a flexible trade-off between efficiency and security.
+- **CKKS (approximate FHE):** Enables arithmetic of approximate numbers on encrypted data, ideal for ML tasks.
 - **Fully-Homomorphic Encryption:** Practical CKKS integration for logistic regression. Choices of parameters which requires understanding of ring-LWE and CKKS scheme.
 - **Performance Benchmarking:** Recorded and analyzed accuracy and per-epoch runtimes and compared with the metrics from logistic regression with plaintexts.
 - **Documentation & Reproducibility of Code:** Clear reporting and presentation, code structure, inline explanations, and sample datasets.
@@ -29,7 +30,7 @@ The bootstrapping technique was initially suggested in this paper [[Gentry, STOC
 ## Core Contributions
 
 - LWE, Ring-LWE, CKKS: Learned and documented LWE, Ring-LWE, and CKKS.
-- \*\*Ring-LWE, \*\*\*\*CKKS \*\***Parameter Selection:** Studied security parameters (polynomial modulus degree, coeff modulus, scale) matching educational benchmarks.
+- CKKS (Ring-LWE) Parameter Selection: Studied security parameters (polynomial modulus degree, coeff modulus, scale) matching educational benchmarks.
 - **CKKS Encryption Pipeline:** Encoded data, encrypted feature vectors, and executed encrypted gradient & weight updates.
 - **Jupyter Notebook with Results:** A self-contained Jupyter notebook (`notebooks/ckks_lwe_logreg.ipynb`) that showcases the progress and results.
 
@@ -37,14 +38,17 @@ The bootstrapping technique was initially suggested in this paper [[Gentry, STOC
 
 ```
 fhe-ckks-lwe-lab-encrypted-ml/
-├── notebooks/                # Jupyter notebook with end-to-end pipeline, results
+├── jupyter_notebooks/                # Jupyter notebook with end-to-end pipeline, results
 │   └── ckks_encrypted_logistic_regression.ipynb
 ├── datasets/                     # datasets
 │   ├── framingham.csv
 │   ├── LogReg_sample_dataset.csv
 │   ├── HRF_sample_small.csv
 │   └── HRF_samples_big.csv
-└── reports/                  # PDF report & presentation slides
+├── report_latex/                  #latex files for the report
+│   ├── main.tex
+│   ├── ......
+└── slides_and_report/                  # PDF report & presentation slides
     ├── Crypto_Lab_Report.pdf
     └── Crypto_Lab_Presentation.pdf
 
