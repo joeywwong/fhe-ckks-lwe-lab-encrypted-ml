@@ -327,3 +327,36 @@ keywords = {Lattice, average-case hardness, cryptography, public key encryption,
     year = {2015},
     note = {\url{https://eprint.iacr.org/2015/939}},
 }
+
+@article{mlwe,
+author = {Langlois, Adeline and Stehl\'{e}, Damien},
+title = {Worst-case to average-case reductions for module lattices},
+year = {2015},
+issue_date = {June      2015},
+publisher = {Kluwer Academic Publishers},
+address = {USA},
+volume = {75},
+number = {3},
+issn = {0925-1022},
+url = {https://doi.org/10.1007/s10623-014-9938-4},
+doi = {10.1007/s10623-014-9938-4},
+abstract = {Most lattice-based cryptographic schemes are built upon the assumed hardness of the Short Integer Solution (SIS) and Learning With Errors (LWE) problems. Their efficiencies can be drastically improved by switching the hardness assumptions to the more compact Ring-SIS and Ring-LWE problems. However, this change of hardness assumptions comes along with a possible security weakening: SIS and LWE are known to be at least as hard as standard (worst-case) problems on euclidean lattices, whereas Ring-SIS and Ring-LWE are only known to be as hard as their restrictions to special classes of ideal lattices, corresponding to ideals of some polynomial rings. In this work, we define the Module-SIS and Module-LWE problems, which bridge SIS with Ring-SIS, and LWE with Ring-LWE, respectively. We prove that these average-case problems are at least as hard as standard lattice problems restricted to module lattices (which themselves bridge arbitrary and ideal lattices). As these new problems enlarge the toolbox of the lattice-based cryptographer, they could prove useful for designing new schemes. Importantly, the worst-case to average-case reductions for the module problems are (qualitatively) sharp, in the sense that there exist converse reductions. This property is not known to hold in the context of Ring-SIS/Ring-LWE: Ideal lattice problems could reveal easy without impacting the hardness of Ring-SIS/Ring-LWE.},
+journal = {Des. Codes Cryptography},
+month = jun,
+pages = {565–599},
+numpages = {35},
+keywords = {68Q17, 95A60, Ideal lattices, Lattice-based cryptography, Module lattices, Worst-case to average-case reductions}
+}
+
+@INPROCEEDINGS{kyber,
+  author={Bos, Joppe and Ducas, Leo and Kiltz, Eike and Lepoint, T and Lyubashevsky, Vadim and Schanck, John M. and Schwabe, Peter and Seiler, Gregor and Stehle, Damien},
+  booktitle={2018 IEEE European Symposium on Security and Privacy (EuroS&P)}, 
+  title={CRYSTALS - Kyber: A CCA-Secure Module-Lattice-Based KEM}, 
+  year={2018},
+  volume={},
+  number={},
+  pages={353-367},
+  keywords={Encryption;Lattices;Electronic mail;Protocols;Public key;post quantum cryptography;key encapsulation;module lattices;learning with errors},
+  doi={10.1109/EuroSP.2018.00032}}
+
+@article{dilithium, title={CRYSTALS-Dilithium: A Lattice-Based Digital Signature Scheme}, volume={2018},  url={https://tches.iacr.org/index.php/TCHES/article/view/839},  DOI={10.13154/tches.v2018.i1.238-268}, abstractNote={In this paper, we present the lattice-based signature scheme Dilithium, which is a component of the CRYSTALS (Cryptographic Suite for Algebraic Lattices) suite that was submitted to NIST’s call for post-quantum cryptographic standards. The design of the scheme avoids all uses of discrete Gaussian sampling and is easily implementable in constant-time. For the same security levels, our scheme has a public key that is 2.5X smaller than the previously most efficient lattice-based schemes that did not use Gaussians, while having essentially the same signature size. In addition to the new design, we significantly improve the running time of the main component of many lattice-based constructions – the number theoretic transform. Our AVX2-based implementation results in a speed-up of roughly a factor of 2 over the previously best algorithms that appear in the literature. The techniques for obtaining this speed-up also have applications to other lattice-based schemes.}, number={1}, journal={IACR Transactions on Cryptographic Hardware and Embedded Systems}, author={Ducas, Léo and Kiltz, Eike and Lepoint, Tancrède and Lyubashevsky, Vadim and Schwabe, Peter and Seiler, Gregor and Stehlé, Damien}, year={2018}, month={Feb.}, pages={238–268} }
